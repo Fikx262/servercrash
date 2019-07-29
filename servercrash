@@ -1,0 +1,11 @@
+[10:12:37] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException: null
+at net.minecraft.server.v1_12_R1.GameProfileBanList.b(SourceFile:34) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.GameProfileBanList.a(SourceFile:8) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.JsonList.load(JsonList.java:195) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.DedicatedPlayerList.A(SourceFile:99) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.DedicatedPlayerList.&lt;init&gt;(SourceFile:25) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:183) ~[minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [minecraft_server.jar:git-Spigot-2cf50f0-2b93d83]
+at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+[10:12:37] [Server thread/ERROR]: This crash report has been saved to: /aternos/server/./crash-reports/crash-2019-07-29_10.12.37-server.txt
